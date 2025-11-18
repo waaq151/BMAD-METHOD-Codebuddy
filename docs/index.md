@@ -71,6 +71,7 @@ Instructions for loading agents and running workflows in your development enviro
 **Popular IDEs:**
 
 - [Claude Code](./ide-info/claude-code.md)
+- [Codebuddy](./ide-info/codebuddy.md)
 - [Cursor](./ide-info/cursor.md)
 - [VS Code](./ide-info/windsurf.md)
 
@@ -112,6 +113,7 @@ docs/                              # Core/cross-module documentation
 ├── document-sharding-guide.md
 ├── ide-info/                      # IDE setup guides
 │   ├── claude-code.md
+│   ├── codebuddy.md
 │   ├── cursor.md
 │   ├── windsurf.md
 │   └── [14+ other IDEs]

@@ -117,7 +117,7 @@ Product Managers and UX Designers are undergoing **the most significant transfor
 
 ### The Convergence
 
-- **PMs learning to code** with GitHub Copilot, Cursor, v0
+- **PMs learning to code** with GitHub Copilot, Codebuddy, Cursor, v0
 - **UX designers generating code** with UXPin Merge, Figma-to-code tools
 - **Developers becoming orchestrators** reviewing AI output vs writing from scratch
 
@@ -600,7 +600,7 @@ Total: ~3 weeks
 Traditional estimate: 9-12 months
 ```
 
-**BMM Setup:** Git submodule, team config repo, mix of Claude Code/Cursor users
+**BMM Setup:** Git submodule, team config repo, mix of Claude Code/Codebuddy/Cursor users
 
 ### Scenario 3: Large Enterprise (50+ Developers)
 
@@ -662,7 +662,7 @@ Traditional estimate: 2-3 years
 ### Enterprise Adoption
 
 **Git submodules:** Best practice for BMM management across teams
-**Team flexibility:** Mix of tools (Claude Code, Cursor, Windsurf) with shared BMM foundation
+**Team flexibility:** Mix of tools (Claude Code, Codebuddy, Cursor, Windsurf) with shared BMM foundation
 **Scalable patterns:** Epic-based, layer-based, feature-based distribution strategies
 
 ### The Future (2026)

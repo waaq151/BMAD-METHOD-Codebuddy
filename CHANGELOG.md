@@ -1411,7 +1411,7 @@ Version 4 represented a complete architectural overhaul, transforming BMAD from 
 
 - **NPM Package**: Professional distribution and simple installation via `npx bmad-method install`
 - **Modular Architecture**: Move to `.bmad-core` hidden folder structure
-- **Multi-IDE Support**: Unified support for Claude Code, Cursor, Roo, Windsurf, and many more
+- **Multi-IDE Support**: Unified support for Claude Code, Codebuddy, Cursor, Roo, Windsurf, and many more
 - **Schema Standardization**: YAML-based agent and team definitions
 - **Automated Installation**: One-command setup with upgrade detection
 
@@ -1420,7 +1420,7 @@ Version 4 represented a complete architectural overhaul, transforming BMAD from 
 - Agent team workflows (fullstack, no-ui, all agents)
 - Web bundle generation for platform-agnostic deployment
 - Task-based architecture (separate task definitions from agents)
-- IDE-specific agent activation (slash commands for Claude Code, rules for Cursor, etc.)
+- IDE-specific agent activation (slash commands for Claude Code, rules for Codebuddy, Cursor, etc.)
 
 ### New Capabilities
 

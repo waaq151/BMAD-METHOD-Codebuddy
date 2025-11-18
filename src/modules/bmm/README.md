@@ -113,7 +113,7 @@ Use party mode to engage all 19+ agents (from BMM, CIS, BMB, custom modules) in 
 - **[Quick Spec Flow](./docs/quick-spec-flow.md)** - Fast-track for Level 0-1 projects
 - **[Enterprise Agentic Development](./docs/enterprise-agentic-development.md)** - Team collaboration patterns
 - **[Troubleshooting](./docs/troubleshooting.md)** - Common issues and solutions
-- **[IDE Setup Guides](../../../docs/ide-info/)** - Configure Claude Code, Cursor, Windsurf, etc.
+- **[IDE Setup Guides](../../../docs/ide-info/)** - Configure Claude Code, Codebuddy, Cursor, Windsurf, etc.
 
 ---
 

@@ -67,7 +67,7 @@ Foundation framework powering all BMad modules:
 - **Agent Orchestration** - Specialized AI personas with domain expertise
 - **Workflow Engine** - Guided multi-step processes with built-in best practices
 - **Modular Architecture** - Extend with domain-specific modules (BMM, BMB, CIS, custom)
-- **IDE Integration** - Works with Claude Code, Cursor, Windsurf, VS Code, and more
+- **IDE Integration** - Works with Claude Code, Cursor, Codebuddy, Windsurf, VS Code, and more
 - **Update-Safe Customization** - Your configs persist through all updates
 
 ### v6 Core Enhancements
@@ -288,7 +288,7 @@ BMad is flexible - you can execute workflows in several ways depending on your p
 > Slash command format varies by IDE:
 >
 > - **Claude Code:** `/bmad:bmm:workflows:prd`
-> - **Cursor/Windsurf:** May use different syntax - check your IDE's [documentation](./docs/ide-info/)
+> - **Cursor/Codebuddy/Windsurf:** May use different syntax - check your IDE's [documentation](./docs/ide-info/)
 > - **VS Code with Copilot Chat:** Syntax may differ
 >
 > See **[IDE Integration Guides](./docs/ide-info/)** for your specific IDE's command format.
@@ -311,7 +311,7 @@ Modify agents without touching core files:
 Smart setup that adapts to your environment:
 
 - Auto-detects v4 installations for smooth upgrades
-- Configures IDE integrations (Claude Code, Cursor, Windsurf, VS Code)
+- Configures IDE integrations (Claude Code, Cursor, Codebuddy, Windsurf, VS Code)
 - Resolves cross-module dependencies
 - Generates unified agent/workflow manifests
 
@@ -439,4 +439,4 @@ We welcome contributions! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for:
 
 [![Contributors](https://contrib.rocks/image?repo=bmad-code-org/BMAD-METHOD)](https://github.com/bmad-code-org/BMAD-METHOD/graphs/contributors)
 
-<sub>Built with ❤️ for the human-AI collaboration community</sub>
+<sub>Built with ❤️ for the human-AI collaboration commu

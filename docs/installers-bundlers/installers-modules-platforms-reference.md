@@ -167,6 +167,7 @@ communication_language: "English"
 **Preferred** (Full Integration):
 
 - Claude Code
+- Codebuddy
 - Cursor
 - Windsurf
 

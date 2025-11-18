@@ -575,7 +575,7 @@ Get all your installed agents in one conversation for multi-perspective discussi
 
 ### How to Run Workflows
 
-**From IDE (Claude Code, Cursor, Windsurf):**
+**From IDE (Claude Code, Codebuddy, Cursor, Windsurf):**
 
 1. Load the agent using agent reference (e.g., type `@pm` in Claude Code)
 2. Wait for agent menu to appear in chat

@@ -197,9 +197,11 @@ If you're using:
 After installation:
 
 1. **Load the Analyst agent** - See your IDE-specific instructions in [docs/ide-info](./ide-info/) for how to activate agents:
-   - [Claude Code](./ide-info/claude-code.md)
-   - [Cursor](./ide-info/cursor.md)
-   - [VS Code/Windsurf](./ide-info/) - Check your IDE folder
+
+- [Claude Code](./ide-info/claude-code.md)
+- [Codebuddy](./ide-info/codebuddy.md)
+- [Cursor](./ide-info/cursor.md)
+- [VS Code/Windsurf](./ide-info/) - Check your IDE folder
 
 2. **Wait for the agent's menu** to appear
 

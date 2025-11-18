@@ -352,7 +352,7 @@ BMM respects your choice - it won't force modernization, but it will offer it.
 
 All BMM docs use valid Mermaid syntax that should render in GitHub, VS Code, and most IDEs.
 
-### Q: Can I use BMM with GitHub Copilot / Cursor / other AI tools?
+### Q: Can I use BMM with GitHub Copilot / Codebuddy / Cursor / other AI tools?
 
 **A:** Yes! BMM is complementary. BMM handles:
 
@@ -501,7 +501,7 @@ Trust your expertise - BMM supports your decisions.
 
 - Use **git submodules** for BMM installation (not .gitignore)
 - Allows personal configurations without polluting main repo
-- Teams may use different AI tools (Claude Code, Cursor, etc.)
+- Teams may use different AI tools (Claude Code, Codebuddy, Cursor, etc.)
 - Developers may follow different methods or create custom agents/workflows
 
 **Quick Tips:**
