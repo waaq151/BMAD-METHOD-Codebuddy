@@ -1333,11 +1333,15 @@ class Installer {
           includeMetadata: true,
         });
 
+        // Replace {bmad_folder} placeholder with actual folder name (e.g., '.bmad' or 'bmad')
+        const bmadFolderName = this.bmadFolderName || path.basename(path.dirname(modulePath));
+        let processedContent = xmlContent.replaceAll('{bmad_folder}', bmadFolderName);
+
         // DO NOT replace {project-root} - LLMs understand this placeholder at runtime
-        // const processedContent = xmlContent.replaceAll('{project-root}', projectDir);
+        // processedContent = processedContent.replaceAll('{project-root}', projectDir);
 
         // Write the built .md file to bmad/{module}/agents/ with POSIX-compliant final newline
-        const content = xmlContent.endsWith('\n') ? xmlContent : xmlContent + '\n';
+        const content = processedContent.endsWith('\n') ? processedContent : processedContent + '\n';
         await fs.writeFile(mdPath, content, 'utf8');
         this.installedFiles.push(mdPath);
 
@@ -1435,11 +1439,15 @@ class Installer {
         includeMetadata: true,
       });
 
+      // Replace {bmad_folder} placeholder with actual folder name (e.g., '.bmad' or 'bmad')
+      const bmadFolderName = this.bmadFolderName || path.basename(bmadDir);
+      let processedContent = xmlContent.replaceAll('{bmad_folder}', bmadFolderName);
+
       // DO NOT replace {project-root} - LLMs understand this placeholder at runtime
-      // const processedContent = xmlContent.replaceAll('{project-root}', projectDir);
+      // processedContent = processedContent.replaceAll('{project-root}', projectDir);
 
       // Write the built .md file with POSIX-compliant final newline
-      const content = xmlContent.endsWith('\n') ? xmlContent : xmlContent + '\n';
+      const content = processedContent.endsWith('\n') ? processedContent : processedContent + '\n';
       await fs.writeFile(targetMdPath, content, 'utf8');
 
       // Display result
@@ -1529,11 +1537,15 @@ class Installer {
           includeMetadata: true,
         });
 
+        // Replace {bmad_folder} placeholder with actual folder name (e.g., '.bmad' or 'bmad')
+        const bmadFolderName = this.bmadFolderName || path.basename(path.dirname(modulePath));
+        let processedContent = xmlContent.replaceAll('{bmad_folder}', bmadFolderName);
+
         // DO NOT replace {project-root} - LLMs understand this placeholder at runtime
-        // const processedContent = xmlContent.replaceAll('{project-root}', projectDir);
+        // processedContent = processedContent.replaceAll('{project-root}', projectDir);
 
         // Write the rebuilt .md file with POSIX-compliant final newline
-        const content = xmlContent.endsWith('\n') ? xmlContent : xmlContent + '\n';
+        const content = processedContent.endsWith('\n') ? processedContent : processedContent + '\n';
         await fs.writeFile(targetMdPath, content, 'utf8');
 
         // Display result with customizations if any
@@ -1564,6 +1576,10 @@ class Installer {
         spinner.fail('No BMAD installation found');
         throw new Error(`BMAD not installed at ${bmadDir}`);
       }
+
+      // Get the actual folder name (e.g., '.bmad' or 'bmad') and set it for placeholder replacement
+      const bmadFolderName = path.basename(bmadDir);
+      this.bmadFolderName = bmadFolderName;
 
       let agentCount = 0;
       let taskCount = 0;
