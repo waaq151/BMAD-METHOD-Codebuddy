@@ -1580,6 +1580,8 @@ class Installer {
       // Get the actual folder name (e.g., '.bmad' or 'bmad') and set it for placeholder replacement
       const bmadFolderName = path.basename(bmadDir);
       this.bmadFolderName = bmadFolderName;
+      // Update IDE manager so it passes the correct folder name to IDE handlers
+      this.ideManager.setBmadFolderName(bmadFolderName);
 
       let agentCount = 0;
       let taskCount = 0;
